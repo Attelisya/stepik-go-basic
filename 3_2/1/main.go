@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+	var n int
+	fmt.Scan(&n)
+	if n > 99 && n < 1000 {
+		fmt.Print("YES")
+	} else {
+		fmt.Print("NO")
+	}
+}
