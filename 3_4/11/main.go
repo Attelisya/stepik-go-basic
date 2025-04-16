@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	var a, b, c int
-	fmt.Scan(&a, &b, &c)
+	var w int
+	fmt.Scan(&w)
 
-	if a+b > c && a+c > b && c+b > a {
+	if w%2 == 0 && w >= 4 {
 		fmt.Print("YES")
 	} else {
 		fmt.Print("NO")
